@@ -11,3 +11,9 @@ The fact that the URL amqp://guest:guest@localhost:5672 is the same in both the 
 # RabbitMQ
 
 ![alt text](image.png)
+
+# Spike on the RabbitMQ's Graph
+
+![alt text](image-1.png)
+
+The chart in the RabbitMQ management UI shows the number of messages (or events) in the queue over time. When i run 'cargo run' the publisher sends a batch of 5 events, it'll show a sudden spike in the chart, indicating that the number of messages in the queue has increased.
