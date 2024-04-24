@@ -7,3 +7,7 @@ Based on the code in the publisher's main() function, the publisher program will
 # The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean?
 
 The fact that the URL amqp://guest:guest@localhost:5672 is the same in both the publisher and subscriber programs means that they are configured to connect to the same RabbitMQ message broker instance.
+
+# RabbitMQ
+
+![alt text](image.png)
